@@ -1,0 +1,133 @@
+a{
+    text-decoration: none;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Oswald',sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    z-index: 9999;
+    position: fixed;
+    background-color: white;
+
+    top: -100px;
+}
+
+.active{
+box-shadow: 0px 0px 20px 5px;
+}
+
+.name_site{
+    padding-top: 20px;
+}
+
+.photo_one{
+    width: 470px;
+    margin-top: 169px;
+}
+
+.photo_two{
+    width: 100px;
+    margin-left: 40px;
+    margin-top: 122px;
+}
+
+.section{
+    background-color: #4A72FF;
+    width: 100%;
+    height: 812px;
+}
+
+.info_section{
+    color: white;
+    padding-top: 378px;
+    font-family: 'Oswald',sans-serif;
+    font-weight: 400;
+
+    font-size: 30px;
+}
+
+.name_section{
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.yap{
+    margin-left: 75px;
+    margin-top: 80px;
+}
+
+.jq{
+    /*margin-left: 355px;*/
+    margin-top: 30px;
+}
+
+.name_yap{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+/*h1*/
+
+.footer{
+    background-color: #4A72FF;
+    width: 100%;
+    height: 470px;
+    color: white;
+}
+
+.contacts_footer{
+    font-weight: bold;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.vk{
+    font-weight: bold;
+    color: white;
+    transition: .2s ease;
+}
+
+.vk:hover{
+    color: #4a4a4a;
+}
+
+.github{
+    font-weight: bold;
+    color: white;
+    transition: .2s ease;
+}
+
+.github:hover{
+    color: #4a4a4a;
+}
+
+.info_footer{
+    margin-top: 80px;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.down_footer{
+    font-weight: bold;
+}
+
+.readme{
+    color: #FFA2A2;
+}
+
+.readme:hover{
+    color: #FFA2A2;
+}
