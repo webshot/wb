@@ -26,5 +26,24 @@ if(window.innerWidth > 600){
 )
 }
 
-alert('Сайт в разработке ;)')
+const anchors = document.querySelectorAll('a[href*="#"]')
+
+for (let anchor of anchors) {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault()
+
+    const blockID = anchor.getAttribute('href').substr(1)
+
+    document.getElementById(blockID).scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    })
+  })
+}
+
+function dev(){
+    alert('Сайт в разработке ;)');
+}
+
+setTimeout(dev,600);
 }, false);
